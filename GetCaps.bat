@@ -1,1 +1,3 @@
- gst-launch-1.0 -v udpsrc port=230.230.230.230 ! fakesink dump=1
+ gst-launch-1.0 -v udpsrc address=230.230.230.230 ! udpsink host=230.230.230.230
+
+ 
